@@ -1,0 +1,85 @@
+body {
+  box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.5);
+  height: 1200px;
+  background: #eae7e1;
+  background: linear-gradient(to bottom, #eae7e1 0%, #d5dee5 92%);
+}
+
+.japan {
+  left: -250px;
+  top: 10%;
+  margin-left: 50%;
+  position: absolute;
+  width: 550px;
+  height: 330px;
+  background: #ffffff;
+}
+
+.japan:before {
+  content: "\0020";
+  height: 220px;
+  width: 40%;
+  background-color: #bc002d;
+  border-radius: 50%;
+  display: block;
+  margin: 55 auto;
+}
+
+.czechrepublic {
+  left: -250px;
+  top: 10%;
+  margin-left: 50%;
+  margin-top: 370px;
+  position: absolute;
+  display: inline-block;
+  width: 550px;
+  height: 330px;
+  background: #d80c13;
+}
+
+.czechrepublic:before {
+  content: "\0020";
+  left: -275px;
+  margin-left: 50%;
+  position: absolute;
+  width: 550px;
+  height: 165px;
+  background: #ffffff;
+  display: block;
+  z-index: 1;
+}
+
+.czechrepublic:after {
+  content: "\0020";
+  width: 185px;
+  height: 175p;
+  position: absolute;
+  border-top: 165px solid transparent;
+  border-bottom: 165px solid transparent;
+  border-left: 185px solid #09437f;
+  z-index: 2;
+}
+
+.micronesia {
+  left: -250px;
+  top: 10%;
+  margin-left: 50%;
+  margin-top: 740px;
+  position: absolute;
+  display: inline-block;
+  width: 550px;
+  height: 330px;
+  background: #75b2dd;
+}
+
+.micronesia:before {
+  content: "\2605";
+  font-size: 100px;
+  color: #ffffff00;
+  display: block;
+  width: 500px;
+  position: absolute;
+  margin: 5px;
+  text-shadow: 225px 0 0 #f3f3f3, 130px 88px 0 #f3f3f3, 320px 88px 0 #f3f3f3,
+    225px 175px 0 #f3f3f3;
+}
